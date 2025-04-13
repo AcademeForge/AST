@@ -48,7 +48,7 @@ footer {
 </head>
 <body>
   <header>
-    <img src="logo.png" alt="AcademeForge Logo" />
+    
     <h1>AcademeForge Scholars Test</h1>
   </header>  <iframe src="https://forms.gle/MnComSa4Sv7EJRcU6" allowfullscreen></iframe>  <footer>
     &copy; 2025 AcademeForge. All rights reserved.
