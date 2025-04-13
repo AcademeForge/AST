@@ -1,3 +1,4 @@
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,7 +8,26 @@
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
       background-color: #e6f7ff;
-    }header {
+    }nav {
+  background-color: #00bfff;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+header {
   background-color: #00bfff;
   padding: 20px;
   color: white;
@@ -47,8 +67,12 @@ footer {
   </style>
 </head>
 <body>
-  <header>
-    
+  <nav>
+    <a href="https://academeforge.github.io/AcademeForge/" target="_blank">Academeforge</a>
+    <a href="https://academeforge.pages.dev/" target="_blank">Extra material</a>
+<a href="https://t.me/AcademeForge/" target="_blank">Telegram</a>
+    <a href="https://academeforge.wordpress.com/" target="_blank">About AF</a>
+  </nav>  <header>
     <h1>AcademeForge Scholars Test</h1>
   </header>  <iframe src="https://forms.gle/MnComSa4Sv7EJRcU6" allowfullscreen></iframe>  <footer>
     &copy; 2025 AcademeForge. All rights reserved.
