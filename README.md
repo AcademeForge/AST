@@ -79,7 +79,7 @@ footer {
       <a href="https://www.youtube.com/@AcademeForgePro" target="_blank">YouTube</a> |
       <a href="https://www.instagram.com/academeforgee" target="_blank">Instagram</a> |
       <a href="https://t.me/addlist/CVX57k_dpG4wNGJl" target="_blank">Join Telegram</a> |
-      <a href="https://t.me/+DYChuLLgL-83MThl" target="_blank">Main Group</a> |
+      <a href="https://t.me/+DYChuLLgL-83MThl" target="_blank">Chat Group</a> |
       <a href="https://x.com/AcademeForge?t=Mb8QF2KsaChiG3ueouvrTQ&s=09" target="_blank">Twitter</a>
     </div>
     <p>&copy; 2025 AcademeForge. All rights reserved.</p>
