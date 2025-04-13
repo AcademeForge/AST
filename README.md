@@ -54,4 +54,3 @@ footer {
     &copy; 2025 AcademeForge. All rights reserved.
   </footer>
 </body>
-</html>
