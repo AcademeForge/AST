@@ -1,4 +1,5 @@
 <html lang="en">
+<meta name="google-site-verification" content="F1L0xfSoJ09Jp0SjvlmTnzkWK_fuYyhBw36QvRdDGwM" />
 <!-- Moving Banner -->
 <div style="width: 100%; background-color: #0a0a0a; color: white; padding: 10px 0; overflow: hidden; position: fixed; top: 0; left: 0; z-index: 10000;">
   <div class="scroll-text">
