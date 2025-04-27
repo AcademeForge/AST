@@ -110,12 +110,12 @@
     <input type="date" id="dob" name="dob" required>
 <!-- Payment Info before screenshot -->
     <label>
-    <p><strong>Final Step : Pay ₹50 to UPI ID:</strong> <code>devrajkumar01@ybl</code> using any UPI app.</p>
+    <p><strong>Final Step : Pay ₹10 to UPI ID:</strong> <code>devrajkumar01@ybl</code> using any UPI app.</p>
 
    <!-- UPI Pay Button -->
-    <a href="upi://pay?pa=devrajkumar01@ybl&pn=Devraj+Kumar&mc=0000&tid=1234567890&tr=1234567890&tn=Test+Payment&am=50&cu=INR" 
+    <a href="upi://pay?pa=devrajkumar01@ybl&pn=Devraj+Kumar&mc=0000&tid=1234567890&tr=1234567890&tn=Test+Payment&am=10&cu=INR" 
        target="_blank">
-       <button type="button">Pay ₹50 Now</button>
+       <button type="button">Pay ₹10 Now</button>
     </a>
 <button type="submit">Register Now</button>
   
