@@ -1,8 +1,8 @@
 
 <html lang="en">
 <!-- Moving Banner -->
-<div style="width: 100%; background-color: #0a0a0a; color: white; padding: 10px 0; overflow: hidden; position: fixed; top: 0; left: 0; z-index: 10000;">
-  <marquee behavior="scroll" direction="left" scrollamount="6" style="font-weight: bold; font-size: 16px;">
+<div style="width: 100%; background-color: #0a0a0a; color: white; padding: 5px 0; overflow: hidden; position: fixed; top: 0; left: 0; z-index: 10000;">
+  <marquee behavior="scroll" direction="left" scrollamount="6" style="font-weight: bold; font-size: 12px;">
     IMPORTANT: Please click both buttons below — first, upload the Payment Screenshot, and then submit your Registration Details. Submitting both is mandatory for successful registration.
   </marquee>
 
