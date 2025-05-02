@@ -73,8 +73,19 @@
 <iframe data-tally-src="https://tally.so/embed/w5rWWE?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="350" frameborder="0" marginheight="0" marginwidth="0" title="Upload Screenshot"></iframe>
 <script>var d=document,s=d.createElement("script");s.src="https://tally.so/widgets/embed.js";s.defer=true;d.body.appendChild(s);</script>
 
-  <button type="submit">Submit</button>
-
+  <style>
+  button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    background: #00e5ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+</style>
 
 <footer>
   <div class="social-links">
