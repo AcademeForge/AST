@@ -2,7 +2,7 @@
 <html lang="en">
 <!-- Moving Banner -->
 <div style="width: 100%; background-color: #0a0a0a; color: white; padding: 5px 0; overflow: hidden; position: fixed; top: 0; left: 0; z-index: 10000;">
-  <marquee behavior="scroll" direction="left" scrollamount="6" style="font-weight: bold; font-size: 12px;">
+  <marquee behavior="scroll" direction="left" scrollamount="6" style="font-weight: bold; font-size: 14px;">
     IMPORTANT: Please click both buttons below — first, upload the Payment Screenshot, and then submit your Registration Details. Submitting both is mandatory for successful registration.
   </marquee>
 
@@ -115,6 +115,7 @@
     <a href="upi://pay?pa=devrajkumar01@ybl&pn=Devraj+Kumar&mc=0000&tid=1234567890&tr=1234567890&tn=Test+Payment&am=10&cu=INR" 
        target="_blank">
        <button type="button">Pay ₹10 Now</button>
+<p>If the button doesn’t work, copy and paste the UPI ID :</strong> <code>devrajkumar01@ybl</code>in your UPI app.<p>
 
 <iframe data-tally-src="https://tally.so/embed/w5rWWE?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="350" frameborder="0" marginheight="0" marginwidth="0" title="Upload Screenshot"></iframe>
 <script>var d=document,s=d.createElement("script");s.src="https://tally.so/widgets/embed.js";s.defer=true;d.body.appendChild(s);</script>
