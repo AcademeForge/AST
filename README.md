@@ -39,7 +39,7 @@
     }
 
     .logo-container img {
-        height: 40px; /* Reduced size */
+        height: 50px; /* Reduced size */
         width: auto; 
         border-radius: 5px;
     }
