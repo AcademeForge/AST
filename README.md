@@ -134,6 +134,34 @@
   }
 </style>
 
+<style>
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #5E60CE; /* Violet blue */
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 14px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+  }
+
+  footer .social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+    font-weight: bold;
+  }
+
+  footer .social-links a:hover {
+    color: #F1FAFF;
+    text-decoration: underline;
+  }
+</style>
+
 <footer>
   <div class="social-links">
     <a href="https://www.youtube.com/@AcademeForgePro" target="_blank">YouTube</a> |
