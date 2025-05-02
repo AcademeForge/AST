@@ -60,10 +60,11 @@
   <label for="school_address">School Address*</label>
   <textarea id="school_address" name="school_address" rows="3" required></textarea>
 
-  <label for="payment_screenshot">Upload Payment Screenshot*</label>
-  <input type="file" id="payment_screenshot" name="payment_screenshot" accept="image/*" required>
+ 
+  <label for="txn id">TXN ID*</label>
+  <input type="text" id="txn id" name="txn id" required>
 
-  <p><strong>Pay ₹10 via UPI ID:</strong> <code>devrajkumar01@ybl</code></p>
+
 
 <!-- Payment Info before screenshot -->
     <label>
@@ -75,10 +76,7 @@
        <button type="button">Pay ₹10 Now</button>
 
   <button type="submit">Submit</button>
-</form>
 
-</body>
-</html>
 
 <footer>
   <div class="social-links">
