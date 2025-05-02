@@ -6,6 +6,44 @@
     IMPORTANT: Please click both buttons below — first, upload the Payment Screenshot, and then submit your Registration Details. Submitting both is mandatory for successful registration.
   </marquee>
 </div>
+<style>
+.scroll-text {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-left 18s linear infinite;
+  padding-left: 100%; /* Start closer to visible area */
+}
+
+@keyframes scroll-left {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
+}
+</style>
+
+</div>
+<!-- Logo -->
+<div class="logo-container">
+    <a href="https://ibb.co/23qH49sJ" target="_blank">
+        <img src="https://i.ibb.co/k2KvC79Z/IMG-20250320-164334-559.jpg" alt="AcademeForge Logo">
+    </a>
+</div>
+
+<style>
+    /* Logo Styling */
+    .logo-container {
+        position: fixed;
+        top: 120px; /* Adjust this to position it under the banner */
+        Right: 10px; /* Positions the logo on the Right side */
+        z-index: 9997;
+    }
+
+    .logo-container img {
+        height: 40px; /* Reduced size */
+        width: auto; 
+        border-radius: 5px;
+    }
+</style>
+
 
 <head>
   <meta charset="UTF-8">
