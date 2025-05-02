@@ -145,7 +145,7 @@
     color: white;
     text-align: center;
     padding: 10px 8px;
-    font-size: 10px;
+    font-size: 13px;
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
     z-index: 777;
   }
