@@ -144,8 +144,8 @@
     background: #5E60CE; /* Violet blue */
     color: white;
     text-align: center;
-    padding: 15px 10px;
-    font-size: 14px;
+    padding: 10px 8px;
+    font-size: 10px;
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
     z-index: 777;
   }
