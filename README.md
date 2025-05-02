@@ -5,7 +5,8 @@
   <marquee behavior="scroll" direction="left" scrollamount="6" style="font-weight: bold; font-size: 16px;">
     IMPORTANT: Please click both buttons below — first, upload the Payment Screenshot, and then submit your Registration Details. Submitting both is mandatory for successful registration.
   </marquee>
-</div>
+
+
 <style>
 .scroll-text {
   display: inline-block;
