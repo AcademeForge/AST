@@ -15,7 +15,7 @@
 
 <h2>AcademeForge Scholars Test Registration</h2>
 
-<form id="registrationForm" method="POST" enctype="multipart/form-data" action="https://script.google.com/macros/s/AKfycbxKUHRKkUA8Mt42QGrYR07fDye-tcs9R6_qkCJsv8osOpyG_gus6_9Xa7AyhzNjx84SpQ/exec">
+<form id="registrationForm">
   <label for="name">Full Name*</label>
   <input type="text" id="name" name="name" required>
 
@@ -67,6 +67,41 @@
 
   <button type="submit">Submit</button>
 </form>
+
+<script>
+document.getElementById('registrationForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  
+  const form = e.target;
+  const fileInput = document.getElementById('payment_screenshot');
+  const file = fileInput.files[0];
+  const reader = new FileReader();
+
+  reader.onload = function() {
+    const base64String = reader.result.split(',')[1];
+    const data = new FormData(form);
+    
+    data.append('payment_screenshot_base64', base64String);
+    data.append('payment_screenshot_name', file.name);
+    data.append('payment_screenshot_type', file.type);
+
+    fetch('https://script.google.com/macros/s/AKfycbzIAWMADHvBTd13vlFYfXjOcj0jdBBlfqjK8Era6UohAgq_0yTGzrolN0d4AF5BPY2D0g/exec', {
+      method: 'POST',
+      body: data
+    })
+    .then(response => response.text())
+    .then(result => {
+      alert('Form submitted successfully!');
+      form.reset();
+    })
+    .catch(error => {
+      alert('Error submitting form: ' + error);
+    });
+  };
+
+  reader.readAsDataURL(file);
+});
+</script>
 
 </body>
 </html>
