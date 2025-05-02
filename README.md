@@ -146,7 +146,7 @@
     padding: 15px 10px;
     font-size: 14px;
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
-    z-index: 999;
+    z-index: 777;
   }
 
   footer .social-links a {
