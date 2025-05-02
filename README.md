@@ -15,7 +15,7 @@
 
 <h2>AcademeForge Scholars Test Registration</h2>
 
-<form id="registrationForm" method="POST" enctype="multipart/form-data" action="YOUR_GOOGLE_APPS_SCRIPT_URL_HERE">
+<form id="registrationForm" method="POST" enctype="multipart/form-data" action="https://script.google.com/macros/s/AKfycbxKUHRKkUA8Mt42QGrYR07fDye-tcs9R6_qkCJsv8osOpyG_gus6_9Xa7AyhzNjx84SpQ/exec">
   <label for="name">Full Name*</label>
   <input type="text" id="name" name="name" required>
 
