@@ -65,8 +65,26 @@
 
   <p><strong>Pay ₹10 via UPI ID:</strong> <code>devrajkumar01@ybl</code></p>
 
+<!-- Payment Info before screenshot -->
+    <label>
+     <p><strong>Pay ₹10 via UPI ID:</strong> <code>devrajkumar01@ybl</code></p>
+
+   <!-- UPI Pay Button -->
+    <a href="upi://pay?pa=devrajkumar01@ybl&pn=Devraj+Kumar&mc=0000&tid=1234567890&tr=1234567890&tn=Test+Payment&am=10&cu=INR" 
+       target="_blank">
+       <button type="button">Pay ₹10 Now</button>
+
   <button type="submit">Submit</button>
 </form>
 
 </body>
 </html>
+
+<footer>
+  <div class="social-links">
+    <a href="https://www.youtube.com/@AcademeForgePro" target="_blank">YouTube</a> |
+    <a href="https://www.instagram.com/academeforgee" target="_blank">Instagram</a> |
+    <a href="https://t.me/addlist/CVX57k_dpG4wNGJl" target="_blank">Join Telegram</a>
+  </div>
+  <p>&copy; 2025 AcademeForge. All rights reserved.</p>
+</footer>
