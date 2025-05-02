@@ -33,9 +33,9 @@
     /* Logo Styling */
     .logo-container {
         position: fixed;
-        top: 120px; /* Adjust this to position it under the banner */
-        Right: 10px; /* Positions the logo on the Right side */
-        z-index: 9997;
+        top: 70px; /* Adjust this to position it under the banner */
+        Right: 15px; /* Positions the logo on the Right side */
+        z-index: 10;
     }
 
     .logo-container img {
