@@ -106,7 +106,11 @@
   <label for="school_address">School Address*</label>
   <textarea id="school_address" name="school_address" rows="3" required></textarea>
 
-
+<!-- UPI Pay Button -->
+    <a href="upi://pay?pa=devrajkumar01@ybl&pn=Devraj+Kumar&mc=0000&tid=1234567890&tr=1234567890&tn=Test+Payment&am=10&cu=INR" 
+       target="_blank">
+       <button type="button">Pay ₹10 Now</button>
+    </a>
 
 <iframe 
   data-tally-src="https://tally.so/embed/w5rWWE?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" 
