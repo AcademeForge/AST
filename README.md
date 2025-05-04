@@ -112,7 +112,7 @@
   <h3 style="color: #333;">Pay ₹10 to Complete Your Registration</h3>
   
   <!-- Pay Now Button -->
-  <a href="upi://pay?pa=devrajkumar01@ybl" 
+  <a href=<img src="https://chart.googleapis.com/chart?cht=qr&chs=200x200&chl=upi://pay?pa=devrajkumar01@ybl&pn=Devraj%20Kumar" alt="Scan to pay via UPI" /> 
      style="display: inline-block; padding: 12px 25px; background-color: #00b894; color: white; text-decoration: none; font-weight: bold; border-radius: 8px; font-size: 16px;"
      target="_blank">
     Pay Now via UPI
