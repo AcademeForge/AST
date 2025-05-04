@@ -1,4 +1,3 @@
-
 <html lang="en">
 <!-- Moving Banner -->
 <div style="width: 100%; background-color: #0a0a0a; color: white; padding: 5px 0; overflow: hidden; position: fixed; top: 0; left: 0; z-index: 10000;">
@@ -105,13 +104,18 @@
 
   <label for="school_address">School Address*</label>
   <textarea id="school_address" name="school_address" rows="3" required></textarea>
-
+  <p style="margin-top: 15px;"> 
+    <strong style="color: #d5ff05;">Registration fee submission:</strong></p>
 <!-- UPI Pay Button -->
     <a href="upi://pay?pa=devrajkumar01@ybl&pn=Devraj+Kumar&mc=0000&tid=1234567890&tr=1234567890&tn=Test+Payment&am=10&cu=INR" 
        target="_blank">
        <button type="button">Pay ₹10 Now</button>
     </a>
+    <p style="margin-top: 10px; color: #555;">(Works only on mobile with UPI apps like GPay, PhonePe, Paytm, etc.)</p>
 
+    <p style="margin-top: 15px;">If Blocked from the link pay manually using UPI ID: <strong style="color: #222;">devrajkumar01@ybl</strong></p>
+  </div>
+  <strong style="color: #0c18f6;">Verify your name,number & upload payment screenshot:</strong></p>
 <iframe 
   data-tally-src="https://tally.so/embed/w5rWWE?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" 
   loading="lazy" 
@@ -138,9 +142,9 @@
     padding: 15px;
     font-size: 18px;
     background: #00e5ff;
-    color: white;
+    color: rgb(69, 14, 221);
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
     cursor: pointer;
   }
 </style>
@@ -151,12 +155,12 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    background: #5E60CE; /* Violet blue */
+    background: #5e60CE; /* Violet blue */
     color: white;
     text-align: center;
-    padding: 10px 8px;
-    font-size: 13px;
-    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+    padding: 1px 1cap;
+    font-size: 65%;
+    box-shadow: 0 -2px 10px rgba(5, 24, 101, 0.3);
     z-index: 777;
   }
 
