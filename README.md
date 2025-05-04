@@ -108,7 +108,7 @@
 
 
 <!-- Pay Now Section -->
-<div style="background-color: #f0f0f0; padding: 20px; border-radius: 10px; text-align: center; margin: 20px 0;">
+
   <h3 style="color: #333;">Pay ₹10 to Complete Your Registration</h3>
   
   <!-- Pay Now Button -->
