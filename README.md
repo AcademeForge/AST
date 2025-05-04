@@ -114,8 +114,10 @@
     <p style="margin-top: 10px; color: #555;">(Works only on mobile with UPI apps like GPay, PhonePe, Paytm, etc.)</p>
 
     <p style="margin-top: 15px;">If Blocked from the link pay manually using UPI ID: <strong style="color: #222;">devrajkumar01@ybl</strong></p>
-  </div>
-  <strong style="color: #0c18f6;">Verify your name,number & upload payment screenshot:</strong></p>
+  
+
+  <strong style="color: #0c18f6;">Verify your name,number & upload payment screenshot:</strong>
+
 <iframe 
   data-tally-src="https://tally.so/embed/w5rWWE?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" 
   loading="lazy" 
