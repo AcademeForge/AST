@@ -123,10 +123,22 @@
   <p style="margin-top: 15px;">Or pay manually using UPI ID: <strong style="color: #222;">devrajkumar01@ybl</strong></p>
 </div>
 
-
-<iframe data-tally-src="https://tally.so/embed/w5rWWE?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="350" frameborder="0" marginheight="0" marginwidth="0" title="Upload Screenshot"></iframe>
-<script>var d=document,s=d.createElement("script");s.src="https://tally.so/widgets/embed.js";s.defer=true;d.body.appendChild(s);</script>
-
+<iframe 
+  data-tally-src="https://tally.so/embed/w5rWWE?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" 
+  loading="lazy" 
+  width="100%" 
+  height="90vh" 
+  frameborder="0" 
+  marginheight="0" 
+  marginwidth="0" 
+  title="Upload Screenshot">
+</iframe>
+<script>
+  var d = document, s = d.createElement("script");
+  s.src = "https://tally.so/widgets/embed.js";
+  s.defer = true;
+  d.body.appendChild(s);
+</script>
 
 <button type="submit">Submit</button>
 
