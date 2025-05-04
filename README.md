@@ -107,20 +107,6 @@
   <textarea id="school_address" name="school_address" rows="3" required></textarea>
 
 
-<!-- Pay Now Section -->
-
-  <h3 style="color: #333;">Pay ₹10 to Complete Your Registration</h3>
-  
-  <!-- Pay Now Button -->
-  <a href="upi://pay?pa=devrajkumar01@ybl&pn=Devraj%20Kumar&am=10" style="text-decoration:none; color:#007bff;">
-  Pay ₹10 via UPI
-</a>
-    
-
-  <p style="margin-top: 10px; color: #555;">(Works only on mobile with UPI apps like GPay, PhonePe, Paytm, etc.)</p>
-
-  <p style="margin-top: 15px;">Or pay manually using UPI ID: <strong style="color: #222;">devrajkumar01@ybl</strong></p>
-</div>
 
 <iframe 
   data-tally-src="https://tally.so/embed/w5rWWE?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" 
