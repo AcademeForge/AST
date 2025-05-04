@@ -107,14 +107,21 @@
   <textarea id="school_address" name="school_address" rows="3" required></textarea>
 
 
-<!-- Payment Info before screenshot -->
-    <label>
-     <p><strong>If the button doesn’t work, copy and paste the UPI ID: Pay ₹10 via UPI ID:</strong> <code>devrajkumar01@ybl</code></p>
+<!-- Pay Now Section -->
+<div style="background-color: #f0f0f0; padding: 20px; border-radius: 10px; text-align: center; margin: 20px 0;">
+  <h3 style="color: #333;">Pay ₹10 to Complete Your Registration</h3>
+  
+  <!-- Pay Now Button -->
+  <a href="upi://pay?pa=devrajkumar01@ybl&pn=AcademeForge&am=10&cu=INR" 
+     style="display: inline-block; padding: 12px 25px; background-color: #00b894; color: white; text-decoration: none; font-weight: bold; border-radius: 8px; font-size: 16px;"
+     target="_blank">
+    Pay Now via UPI
+  </a>
 
-   <!-- UPI Pay Button -->
-    <a href="upi://pay?pa=devrajkumar01@ybl&pn=Devraj+Kumar&mc=0000&tid=1234567890&tr=1234567890&tn=Test+Payment&am=10&cu=INR" 
-       target="_blank">
-       <button type="button">Pay ₹10 Now</button>
+  <p style="margin-top: 10px; color: #555;">(Works only on mobile with UPI apps like GPay, PhonePe, Paytm, etc.)</p>
+
+  <p style="margin-top: 15px;">Or pay manually using UPI ID: <strong style="color: #222;">devrajkumar01@ybl</strong></p>
+</div>
 
 
 <iframe data-tally-src="https://tally.so/embed/w5rWWE?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="350" frameborder="0" marginheight="0" marginwidth="0" title="Upload Screenshot"></iframe>
