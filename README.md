@@ -81,7 +81,7 @@
   <select id="mode" name="mode" required>
     <option value="">Select Mode</option>
     <option value="Offline">Offline</option>
-    <option value="Online">Online</option>
+    <option value="Offline">Offline</option>
   </select>
 
   <label for="mobile">Mobile Number*</label>
