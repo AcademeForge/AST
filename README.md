@@ -81,7 +81,6 @@
   <select id="mode" name="mode" required>
     <option value="">Select Mode</option>
     <option value="Offline">Offline</option>
-    <option value="Offline">Offline</option>
   </select>
 
   <label for="mobile">Mobile Number*</label>
@@ -107,9 +106,9 @@
   <p style="margin-top: 15px;"> 
     <strong style="color: #d5ff05;">Registration fee submission:</strong></p>
 <!-- UPI Pay Button -->
-    <a href="upi://pay?pa=devrajkumar01@ybl&pn=Devraj+Kumar&mc=0000&tid=1234567890&tr=1234567890&tn=Test+Payment&am=10&cu=INR" 
+    <a href="upi://pay?pa=devrajkumar01@ybl&pn=Devraj+Kumar&mc=0000&tid=1234567890&tr=1234567890&tn=Test+Payment&am=100&cu=INR" 
        target="_blank">
-       <button type="button">Pay ₹10 Now</button>
+       <button type="button">Pay ₹99 Now</button>
     </a>
     <p style="margin-top: 10px; color: #555;">(Works only on mobile with UPI apps like GPay, PhonePe, Paytm, etc.)</p>
 
