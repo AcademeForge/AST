@@ -135,7 +135,7 @@
 <script>
   function checkPassword() {
     const input = document.getElementById('accessPassword').value;
-    const correctPassword = 'AST2025';
+    const correctPassword = 'Password';
     if (input === correctPassword) {
       document.getElementById('passwordSection').style.display = 'none';
       document.getElementById('mainForm').style.display = 'block';
